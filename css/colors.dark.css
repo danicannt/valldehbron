@@ -1,0 +1,174 @@
+html {
+    color: #fff;
+}
+
+a {
+    color: #0f85a5 !important;
+    outline: none !important;
+    display: inline-block;
+    transition: all .15s ease-out;
+}
+
+    a:focus {
+        background: #0f85a5 !important;
+        color: #fff;
+        transform: scale(3);
+        padding-left: .3em;
+        padding-right: .3em;
+        border-radius: .15em;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+.backgroundContainer {
+    /*background: #181818;*/
+}
+
+    .backgroundContainer.withBackdrop {
+        background: linear-gradient(rgba(6, 6, 6, .9), rgba(6, 6, 6, .6), rgba(6, 6, 6, .9));
+    }
+
+.headerLogo {
+    background-image: url(images/logowhite.png);
+}
+
+.fieldDescription, .secondaryText {
+    color: #aaa;
+}
+
+.checkboxLabel, .selectLabelUnfocused {
+    color: #bbb !important;
+}
+
+.inputLabel, .textareaLabelUnfocused {
+    color: #bbb;
+}
+
+.checkboxOutline {
+    border-color: #bbb;
+}
+
+.emby-button.raised {
+    background-color: rgba(170,170,190, .4);
+    color: #fff;
+}
+
+.emby-button:focus:not(.btnUserViewHeader) {
+    background: #0f85a5 !important;
+    color: #fff;
+}
+
+.cardFooter:not(.cardFooter-round) {
+    background-color: #333;
+}
+
+.card:focus:not(.card-round) .cardBox {
+    border-color: #0f85a5 !important;
+    /*border-width: 0;
+    border-color: rgba(0, 0, 0, 0);*/
+}
+
+.card[data-cardtype='embyconnect'] .cardImageContainer {
+    background-color: #0f85a5 !important;
+}
+
+.headerBackButton {
+    color: #aaa;
+}
+
+
+.userViewNames button {
+    opacity: 1;
+}
+
+.userViewButtonText {
+    border-bottom: 2px solid transparent;
+}
+
+.userViewNames button.selected {
+    color: inherit;
+    opacity: 1;
+}
+
+.userViewNames button h3 {
+  width: 100%;
+  margin: 0;
+  padding: 16px 16px 16px 100px;
+  border: none;
+  color: #fff;
+}
+
+.userViewNames button h3 i {
+  color: #555 !important;
+}
+
+.userViewNames button:focus h3 {
+  background-color: #0f85a5 !important;
+}
+
+.userViewNames button:focus h3 i,
+.userViewNames button.selected h3 i {
+  color: #fff !important;
+}
+
+.userViewNames button:focus h3 i {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff !important;
+}
+
+
+.dialog {
+    background-color: rgba(20,20,20,1) !important;
+    color: #fff !important;
+}
+
+.albumsCard .cardImageContainer, .recordingsCard .cardImageContainer {
+    background: #38c;
+}
+
+.allGenericCard .cardImageContainer, .artistsCard .cardImageContainer {
+    background: #4CAF50;
+}
+
+.genresCard .cardImageContainer, .scheduledLiveTvCard .cardImageContainer {
+    background: #F44336;
+}
+
+.movieCollectionsCard .cardImageContainer {
+    background-color: #009688;
+}
+
+.movieGenresCard .cardImageContainer {
+    background-color: #009688;
+}
+
+.tvUpcomingCard .cardImageContainer {
+    background-color: #009688;
+}
+
+.emptyStar {
+    color: #bbb !important;
+}
+
+.userViewNames button:focus .userViewButtonText {
+    border-bottom-color: transparent;
+}
+
+.selectedItemSecondaryInfo {
+    color: #ddd !important;
+}
+
+.listItem:focus {
+    background-color: #333 !important;
+    border-radius: .25em;
+}
+
+.listItemBody .secondary {
+    color: #999 !important;
+}
+
+.itemProgressBarForeground {
+  background-color: #0f85a5 !important;
+}
